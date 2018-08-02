@@ -1,0 +1,22 @@
+{
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Address Details",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1532330553774x658747190122905600.plugin_api.AAC",
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get Address Detail\",\"fields\":{\"_p_pagesTotal\":{\"ret_value\":\"number\",\"caption\":\"pagesTotal\",\"path\":[\"pagesTotal\"]},\"_p_txs\":{\"ret_value\":\"list.api.1532330553774x658747190122905600.plugin_api.AAC.txs\",\"caption\":\"txs\",\"path\":[\"txs\"]}}},\"plugin_api.AAC.txs\":{\"caption\":\"Get Address Details tx\",\"fields\":{\"_p_txid\":{\"ret_value\":\"_ignore\"},\"_p_version\":{\"ret_value\":\"_ignore\"},\"_p_locktime\":{\"ret_value\":\"_ignore\"},\"_p_vin\":{\"ret_value\":\"list.api.1532330553774x658747190122905600.plugin_api.AAC.vin\",\"caption\":\"vin\",\"path\":[\"vin\"]},\"_p_vout\":{\"ret_value\":\"_ignore\"},\"_p_blockhash\":{\"ret_value\":\"_ignore\"},\"_p_blockheight\":{\"ret_value\":\"_ignore\"},\"_p_confirmations\":{\"ret_value\":\"number\",\"caption\":\"confirmations\",\"path\":[\"confirmations\"]},\"_p_time\":{\"ret_value\":\"_ignore\"},\"_p_blocktime\":{\"ret_value\":\"_ignore\"},\"_p_valueOut\":{\"ret_value\":\"number\",\"caption\":\"valueOut\",\"path\":[\"valueOut\"]},\"_p_size\":{\"ret_value\":\"number\",\"caption\":\"size\",\"path\":[\"size\"]},\"_p_valueIn\":{\"ret_value\":\"number\",\"caption\":\"valueIn\",\"path\":[\"valueIn\"]},\"_p_fees\":{\"ret_value\":\"number\",\"caption\":\"fees\",\"path\":[\"fees\"]}}},\"plugin_api.AAC.vin\":{\"caption\":\"Get Address Details vin\",\"fields\":{\"_p_txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"path\":[\"txid\"]},\"_p_vout\":{\"ret_value\":\"number\",\"caption\":\"vout\",\"path\":[\"vout\"]},\"_p_scriptSig.asm\":{\"ret_value\":\"_ignore\"},\"_p_scriptSig.hex\":{\"ret_value\":\"_ignore\"},\"_p_sequence\":{\"ret_value\":\"_ignore\"},\"_p_n\":{\"ret_value\":\"_ignore\"},\"_p_addr\":{\"ret_value\":\"text\",\"caption\":\"addr\",\"path\":[\"addr\"]},\"_p_valueSat\":{\"ret_value\":\"number\",\"caption\":\"valueSat\",\"path\":[\"valueSat\"]},\"_p_value\":{\"ret_value\":\"number\",\"caption\":\"value\",\"path\":[\"value\"]},\"_p_doubleSpentTxID\":{\"ret_value\":\"text\",\"caption\":\"doubleSpentTxID\",\"path\":[\"doubleSpentTxID\"]}}}}",
+            "url": "https://blockexplorer.com/api/txs/?address=[address]",
+            "url_params": {
+                "AAH": {
+                    "key": "address",
+                    "private": true,
+                    "value": "3Lym5zaJAwuvtAN9SJTcKyJpUwkBRn8Xx7"
+                }
+            }
+        }
+    },
+    "human": "Blockexplorer"
+}
